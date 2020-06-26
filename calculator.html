@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="app3.js"></script>
+    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+     <div class="calculator">
+         <p class="title"> <img src="cal.png" alt="calculator" width="20px" height="20px" style="padding-top: 2px;"> Calculator</p>
+         <div>
+        <input type="text" id="calc">
+         </div>
+         <div>
+             <button class="clearBtn" onclick="resetValue()">C</button>
+            
+         </div>
+         <div class="rowBtn">
+             <button class="btn" onclick="getInput(7)">7</button>
+             <button class="btn" onclick="getInput(8)">8</button>
+             <button class="btn" onclick="getInput(9)">9</button>
+             <button class="btn" onclick="getInput('*')">*</button>
+         </div>
+         <div class="rowBtn">
+            <button class="btn" onclick="getInput(4)">4</button>
+            <button class="btn" onclick="getInput(5)">5</button>
+            <button class="btn" onclick="getInput(6)">6</button>
+            <button class="btn" onclick="getInput('-')">-</button>
+         </div>
+         <div class="rowBtn">
+            <button class="btn" onclick="getInput(1)">1</button>
+            <button class="btn" onclick="getInput(2)">2</button>
+            <button class="btn" onclick="getInput(3)">3</button>
+            <button class="btn" onclick="getInput('+')">+</button>
+        </div>
+         <div class="rowBtn">
+            <button class="lbtn" onclick="getInput(0)">0</button>
+            <button class="lbtn" onclick="getInput('/')">/</button>
+            <button class="lebtn" onclick="getResult()">=</button>
+        </div>
+
+     </div>
+
+
+</body>
+</html>

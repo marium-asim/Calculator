@@ -1,0 +1,75 @@
+body{
+    background-image: url('bg.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.calculator{
+    border: 2px black solid;
+    margin: 120px auto;
+    height: 390px;
+    width: 400px;
+    border-radius: 7px;
+    box-shadow: 4px 4px 5px black;
+}
+.title{
+    background-color: rgb(38, 162, 184);
+    color: white;
+    margin: 0px;
+  font-size: 20px;
+}
+#calc{
+    width: 95%;
+    height: 50px;
+    margin: 10px 5px;
+    background-color: gainsboro;
+    color:white;
+    font-size: 40px;
+}
+.clearBtn{
+    margin: 10px 5px 0px;
+    width: 97%;
+    height: 40px;
+    font-size: 30px;
+    border-radius: 2%;
+    box-shadow: 2px 2px 5px black;
+}
+.btn{
+    width: 94px;
+    height: 50px;
+    font-size: 30px;
+   box-shadow: 1px 1px 5px black;
+   
+}
+.rowBtn{
+    margin:7px 5px;
+}
+.lbtn{
+    width: 127px;
+    height: 50px;
+    font-size: 30px;
+    box-shadow: 2px 2px 5px black;
+}
+.lebtn{
+    width: 127px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 50%;
+    background-color: rgb(255, 58, 58);
+    box-shadow: 2px 2px 5px black;
+}
+.clearBtn:hover{
+ border: none;
+ background-color: grey;
+ box-shadow: none;
+}
+.btn:hover{
+    border: none;
+    background-color: grey;
+    box-shadow: none;
+   }
+.lbtn:hover{
+    border: none;
+    background-color: grey;
+    box-shadow: none;
+}
